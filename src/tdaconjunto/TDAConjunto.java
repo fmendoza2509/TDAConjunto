@@ -57,6 +57,7 @@ public class TDAConjunto {
         for(i=0;i<n2;i++){
             Data3[i+n1] = Data2[i];
         }
+        System.out.println(" ");
         System.out.println("La unión de conjuntos es: ");
         for(i=0;i<n3;i++){
             System.out.print(Data3[i]+" ");
@@ -70,5 +71,6 @@ public class TDAConjunto {
                 }
             }
         }
+        System.out.println(" ");
     }
 }
